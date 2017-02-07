@@ -12,7 +12,8 @@ def ketchup():
         newWeights = [x + y for x, y in zip(neuron.weights, neuron.dw)]
         neuron.weights = newWeights
 
-def example1():
+#exercise one - we are starting
+def linearModel():
     pass
 
 #ketchup()
