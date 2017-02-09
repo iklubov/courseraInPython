@@ -4,6 +4,8 @@
     <list default="true" id="91d9f9bb-6c29-4b52-bbb1-7ee9502b4304" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatReader.py" afterPath="$PROJECT_DIR$/MatReader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Neuron.py" afterPath="$PROJECT_DIR$/Neuron.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeuronExamples.py" afterPath="$PROJECT_DIR$/NeuronExamples.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatReader.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatReader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatReader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="70" lean-forward="false" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+            <state relative-caret-position="51">
+              <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="59" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -43,8 +45,8 @@
       <file leaf-file-name="Neuron.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Neuron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="101" column="32" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+            <state relative-caret-position="253">
+              <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="25" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -52,14 +54,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NeuronExamples.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NeuronExamples.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NeuronExamples.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="527">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python36-32/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,9 +102,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/MatReader.py" />
         <option value="$PROJECT_DIR$/Neuron.py" />
         <option value="$PROJECT_DIR$/NeuronExamples.py" />
-        <option value="$PROJECT_DIR$/MatReader.py" />
       </list>
     </option>
   </component>
@@ -337,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486496514756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="concatenate matrix numpy">
+      <created>1486584396195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1486584396195</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -353,7 +372,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.496997" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -387,22 +406,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit))" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit))" />
+    <MESSAGE value="concatenate matrix numpy" />
+    <option name="LAST_COMMIT_MESSAGE" value="concatenate matrix numpy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Neuron.py</url>
-          <line>89</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Neuron.py</url>
-          <line>94</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="3" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -653,10 +669,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python36-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Neuron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="101" column="32" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+        <state relative-caret-position="253">
+          <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="25" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -665,20 +699,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NeuronExamples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="527">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatReader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="70" lean-forward="false" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>

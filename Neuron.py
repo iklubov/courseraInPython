@@ -7,7 +7,7 @@ class Utils:
     def multiplyVectors(v1, v2):
         assert len(v1) == len(v2)
         result = 0
-        for i in range(len(v1) - 1):
+        for i in range(len(v1)):
             result += v1[i]*v2[i]
         return result
 
@@ -29,7 +29,6 @@ class Neuron:
         self.__learningRate = learningRate
         self.__updateOutput()
         self.__updateDW()
-        print('init', weights, self.__weights)
 
     @property
     def inputs(self):
@@ -37,7 +36,7 @@ class Neuron:
 
     @inputs.setter
     def inputs(self, value):
-        self.___inputs = value
+        self.__inputs = value
         self.__updateOutput()
         self.__updateDW()
 
@@ -74,8 +73,9 @@ class Neuron:
     @weights.setter
     def weights(self, value):
         self.__weights = value
-        self.__updateOutput()
-        self.__updateDW()
+        if len(self.__inputs) == len(value):
+            self.__updateOutput()
+            self.__updateDW()
 
     def derivative(self):
         linearInput = self.bias + Utils.multiplyVectors(self.__inputs, self.__weights)
@@ -97,9 +97,11 @@ class Neuron:
             self.__output = 0 if linearInput < 0 else 1
 
     def __updateDW(self):
+        if len(self.__dw) == 0:
+            self.__dw = [0]*len(self.__weights)
         if self.type == NeuronTypes.LINEAR:
             for i in range(len(self.__weights)-1):
-                self.dw[i] = self.learningRate * self.inputs[i] * (self.target - self.__output)
+                self.__dw[i] = self.learningRate * self.__inputs[i] * (self.target - self.__output)
 
 
 
