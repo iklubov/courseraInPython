@@ -21,23 +21,28 @@ def linearModel():
     neuron.learningRate = 0.3
     neuron.weights = weights
     neuron.type = NeuronTypes.LINEAR
-    #print('WEIGHTS', neuron.weights)
-    numMistakes = 0
-    deltaw = numpy.zeros((1, negMat.shape[1]))
-    for i in range(negMat.shape[1]+1):
-        neuron.inputs = negMat[i]
-        if neuron.output > 0:
-            numMistakes += 1
-            print(neuron.dw, deltaw)
-            deltaw += neuron.dw
-        #print('NEG', negMat[i], neuron.output)
-        neuron.inputs = posMat[i]
-        if neuron.output < 1:
-            numMistakes += 1
-            deltaw += neuron.dw
-        #print('POS', posMat[i], neuron.output)
-    print('new weights', neuron.weights + deltaw)
-    pass
+    def updateWeighs():
+        numMistakes = 0
+        deltaw = numpy.zeros(negMat.shape[1])
+
+        for i in range(negMat.shape[1]+1):
+            neuron.inputs = negMat[i]
+            if neuron.output > 0:
+                numMistakes += 1
+
+                deltaw += neuron.dw
+
+            neuron.inputs = posMat[i]
+            if neuron.output < 0:
+                numMistakes += 1
+                deltaw += neuron.dw
+        print('new weights', neuron.weights + deltaw, 'num mistakes', numMistakes)
+        neuron.weights = neuron.weights + deltaw
+        return numMistakes
+        pass
+    numMistakes = updateWeighs()
+    while numMistakes > 0:
+        numMistakes = updateWeighs()
 
 #ketchup()
 linearModel()

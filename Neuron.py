@@ -100,7 +100,7 @@ class Neuron:
         if len(self.__dw) == 0:
             self.__dw = [0]*len(self.__weights)
         if self.type == NeuronTypes.LINEAR:
-            for i in range(len(self.__weights)-1):
+            for i in range(len(self.__weights)):
                 self.__dw[i] = self.learningRate * self.__inputs[i] * (self.target - self.__output)
 
 
