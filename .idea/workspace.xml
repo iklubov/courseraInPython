@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d9f9bb-6c29-4b52-bbb1-7ee9502b4304" name="Default" comment="- order in MatReader&#10;- fixes in Neuron&#10;- linearNeuronWorks (without deltaw)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plot.py" />
+    <list default="true" id="91d9f9bb-6c29-4b52-bbb1-7ee9502b4304" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Neuron.py" afterPath="$PROJECT_DIR$/Neuron.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeuronExamples.py" afterPath="$PROJECT_DIR$/NeuronExamples.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -366,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486672521168</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="model works correct">
+      <created>1486841004804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1486841004804</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -419,7 +423,8 @@
     <MESSAGE value="second commit))" />
     <MESSAGE value="concatenate matrix numpy" />
     <MESSAGE value="- order in MatReader&#10;- fixes in Neuron&#10;- linearNeuronWorks (without deltaw)" />
-    <option name="LAST_COMMIT_MESSAGE" value="- order in MatReader&#10;- fixes in Neuron&#10;- linearNeuronWorks (without deltaw)" />
+    <MESSAGE value="model works correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="model works correct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
