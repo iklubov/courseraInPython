@@ -55,15 +55,25 @@ class LinearModel():
 
 import matplotlib.pyplot as plt
 def plot(data):
-    plt.plot(data, 'bo')
+    plt.plot(data, 'rx')
     plt.ylabel('some numbers')
     plt.show()
 
 #ketchup()
 #linearModel = LinearModel()
+#plot([(1,2),(2,3),(4,5),(5,6),(6,7)])
+#plot([(1,2),(20,30),(4,5),(50,60),(6,7)])
 
 def library():
-    MatReader.getData2()
+    batchsize = 100 # Mini - batch size.
+    learning_rate = 0.0001 # Learning rate default = 0.1.
+    momentum = 0.9 #Momentumvdefault = 0.9.
+    numhid1 = 50 # Dimensionality of embedding space default = 50
+    numhid2 = 200 # Number of units in hidden layer default = 200
+    init_wt = 0.01 # Standard deviation of the normal distribution
+    MatReader.getData2(batchsize)
+
+
 
 library()
 

@@ -15,7 +15,7 @@ def getData1(datasetNum):
     weights = numpy.array(dataDict['w_init']).reshape((1,3))[0]
     return negativeMatrix, positiveMatrix, weights
 
-def getData2():
+def getData2(minibatchSize=100):
     dataDict = io.loadmat('res/library.mat')['data']
     start_time = time.time()
     vocab = numpy.matrix(dataDict['vocab'][0][0][0])
@@ -32,8 +32,8 @@ def getData2():
     #print('TEST DATA INPUT', test_t, 'OUTPUT', test_x)
 
     train = getMatrix(dataDict, 'trainData')
-    train_t = getBatchedData(train[0:len(train) - 1], 100)
-    train_x = getBatchedData(train[len(train) - 1], 100)
+    train_t = getBatchedData(train[0:len(train) - 1], minibatchSize)
+    train_x = getBatchedData(train[len(train) - 1], minibatchSize)
     #print('TRAIN DATA INPUT', train_t.shape, 'OUTPUT', train_x.shape)
 
 
